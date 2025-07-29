@@ -1,9 +1,9 @@
 :root {
-  --color-text: #f3f9fa;
+  --color-text: #F4F9FB;
   --color-background: #060a0b;
   --color-primary: #49a5be;
   --color-secondary: #95d0e0;
-  --color-accent: #5abed8;
+  --color-accent: #000000;
 
   --container-max-width: 1800px;
   --spacing-xs: 0.5rem;
@@ -143,8 +143,16 @@ body {
   padding: var(--spacing-md);
 }
 .main-content h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: var(--spacing-md);
+}
+.card {
+  flex: 1;
+  background-color: var(--color-text);
+  max-width: 300px;
+  margin: var(--spacing-md);
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 
