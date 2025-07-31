@@ -135,7 +135,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: var(--spacing-lg) 0;
+  padding: 0px 100px 0px 100px;
 }
 .hero-text {
   flex: 1;
@@ -143,16 +143,23 @@ body {
   padding: var(--spacing-md);
 }
 .main-content h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  padding-top: 3rem;
   margin-bottom: var(--spacing-md);
 }
 .card {
   flex: 1;
   background-color: var(--color-text);
-  max-width: 300px;
+  max-width: 500px;
+  max-height: 650px;
   margin: var(--spacing-md);
   border-radius: 16px;
   overflow: hidden;
+}
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
 }
 
 
